@@ -15,7 +15,9 @@ struct Item: Identifiable, Hashable{
     var imageUrl: URL?
 }
 
-struct ListSongs: View {
+
+
+struct ListSongsView: View {
     @State var songs = [Item]()
     var body: some View {
         NavigationStack{
@@ -65,8 +67,12 @@ struct ListSongs: View {
             }
         }
     }
+    
 }
 
 #Preview {
-    ListSongs()
+    ListSongsView()
 }
+
+ 
+ 

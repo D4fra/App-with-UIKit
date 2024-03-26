@@ -16,11 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="20E-83-jwQ">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4c4-rq-9hk">
+                                <rect key="frame" x="0.0" y="59" width="393" height="749"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
-                                    <segue destination="6AE-OP-7OH" kind="embed" id="baL-N2-Y6q"/>
+                                    <segue destination="6AE-OP-7OH" kind="embed" destinationCreationSelector="MusicList:" id="v9o-BM-5gL"/>
                                 </connections>
                             </containerView>
                         </subviews>
